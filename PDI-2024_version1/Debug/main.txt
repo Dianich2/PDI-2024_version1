@@ -1,0 +1,35 @@
+function double h(double a, double b){
+	a = a + b;
+	ret a;
+};
+
+main{
+    uint n = -1;
+    println n;
+    double k = 10.7;
+    string s = 'Проверка работы функции';
+    println s;
+    double t = h(100.5, k) - 12.7 - 7.25;
+    print 'h(100.5, k) - 12.7 - 7.25 = ';
+    println t;
+    uint a = 10;
+    uint b = (10 + a) / 2 - 5;
+    print 'b = ';
+    println b;
+    uint r;
+    read r;
+    if(r > b){
+        println 'Введенное число больше b';
+    };
+    otherwise{
+        println 'Введенное число меньше или равно b';
+    };
+    println 'Проверка работы цикла. Вывод цифр от 0 до 3';
+    uint j = 0;
+    until(j < 4){
+        println j;
+        j = j + 1;
+    };
+    println 'Конец';
+    ret 0;
+};

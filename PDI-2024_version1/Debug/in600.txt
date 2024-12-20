@@ -1,0 +1,5 @@
+uint t = 10;
+main{
+	uint f = 10;
+	ret 0;	
+};

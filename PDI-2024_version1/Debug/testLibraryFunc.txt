@@ -1,0 +1,26 @@
+main{
+	string a = 'Первая строка';
+	string b = 'Вторая строка';
+	uint r = compare(a, b);
+	if(r == 0){
+		println 'Первая строка лексикографически меньше второй';
+	};	
+	if(r == 2){
+		println 'Вторая строка лексикографически меньше первой';
+	};
+	if(r == 1){
+		println 'Строки равны';
+	};
+	uint n = len(a);
+	print 'Длина первой строки = ';
+	println n;
+	uint t = 2;
+	uint e = 5;
+	print 'Наибольшее число из 2 и 5 это ';
+	uint max = getmax(t, e);
+	println max;
+	print 'Наименьшее число из 2 и 5 это ';
+	uint min = getmin(t, e);
+	println min;
+	ret 0;
+};

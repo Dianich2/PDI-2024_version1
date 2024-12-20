@@ -1,0 +1,5 @@
+main{
+	uint a;
+	print a
+	ret 0;	
+};

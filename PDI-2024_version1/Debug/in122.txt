@@ -1,0 +1,9 @@
+function double h(double t, double a){
+	t = t + a;
+	ret t;
+};
+
+main{
+	double n = h('error', 8.2);
+	ret 0;	
+};

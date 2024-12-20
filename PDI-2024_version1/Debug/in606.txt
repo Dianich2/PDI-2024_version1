@@ -1,0 +1,7 @@
+main{
+	uint a = 10;
+	if a > 5){
+		print a;
+	};
+	ret 0;	
+};

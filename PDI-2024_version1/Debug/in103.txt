@@ -1,0 +1,9 @@
+function double r(double a){
+	print a;
+	ret a;
+};
+
+function uint g(uint a, uint b){
+	a = a + b;
+	ret a;
+};

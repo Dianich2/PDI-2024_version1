@@ -1,0 +1,9 @@
+main{
+	uint a = 10;
+	ret 0;
+};
+
+main{
+	uint b = 10;
+	ret 0;
+};

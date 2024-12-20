@@ -1,0 +1,27 @@
+function uint gcd(uint a, uint b){
+	uint k = a * b; 
+	until(k != 0){
+		if(a > b){
+			a = a % b;
+		};
+		otherwise{
+			b = b % a;
+		};
+		k = a * b;
+	};	
+	k = a + b;
+	ret k;
+};
+
+main{
+	uint a;
+	println 'Введите значение первого числа';
+	read a;
+	uint b;
+	println 'Введите значение второго числа';
+	read b;
+	uint t = gcd(a, b);
+	print 'Наибольший общий делитель введенных чисел = ';
+	println t;
+	ret 0;	
+};

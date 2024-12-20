@@ -1,0 +1,18 @@
+main{
+	uint j = 1;
+	until(j <= 10){
+		uint k = j % 2;
+		if(k == 0){
+			print 'Число ';
+			print j;
+			println ' четное';
+		};
+		otherwise{
+			print 'Число ';
+			print j;
+			println ' нечетное';
+		};
+		j = j + 1;
+	};	
+	ret 0;
+};

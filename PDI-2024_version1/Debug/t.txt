@@ -1,0 +1,14 @@
+main{
+	bool t;
+	read t;
+	println t;
+	if(t == true){
+		println t;
+		println 'yes';
+	};
+	otherwise{
+		println t;
+		println 'no';
+	};
+	ret 0;	
+};

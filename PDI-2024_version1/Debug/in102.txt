@@ -1,0 +1,14 @@
+function double r(double a){
+	print a;
+	ret a;
+};
+
+main{
+	double t = r(10.5);
+	ret 0;
+};
+
+function uint g(uint a, uint b){
+	a = a + b;
+	ret a;
+};

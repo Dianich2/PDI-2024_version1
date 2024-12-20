@@ -1,0 +1,37 @@
+        id            datatype              idtype                Line               value               Scope                idTi
+   compare                UINT                   F                  -1                                  global                  -1
+       len                UINT                   F                  -1                                  global                  -1
+    getmin                UINT                   F                  -1                                  global                  -1
+    getmax                UINT                   F                  -1                                  global                  -1
+         h              DOUBLE                   F                   1                                  global                   1
+         a              DOUBLE                   P                   1                                       h                   1
+         b              DOUBLE                   P                   1                                       h                   1
+      main                UINT                   F                   6                                  global                   6
+         n                UINT                   V                   7                                    main                   7
+        L0                UINT                   L                   7         4.29497e+09                main                   7
+         k              DOUBLE                   V                   9                                    main                   9
+        L1              DOUBLE                   L                   9                10.7                main                   9
+         s                 STR                   V                  10                                    main                  10
+        L2                 STR                   L                  10               'Проверка работы функции'                main                  10
+         t              DOUBLE                   V                  12                                    main                  12
+        L3              DOUBLE                   L                  12               100.5                main                  12
+        L4              DOUBLE                   L                  12                12.7                main                  12
+        L5              DOUBLE                   L                  12                7.25                main                  12
+        L6                 STR                   L                  13               'h(100.5,k)-12.7-7.25='                main                  13
+         a                UINT                   V                  15                                    main                  15
+        L7                UINT                   L                  15                  10                main                  15
+         b                UINT                   V                  16                                    main                  16
+        L8                UINT                   L                  16                  10                main                  16
+        L9                UINT                   L                  16                   2                main                  16
+       L10                UINT                   L                  16                   5                main                  16
+       L11                 STR                   L                  17               'b='                main                  17
+         r                UINT                   V                  19                                    main                  19
+       L12                 STR                   L                  22               'Введенное число больше b'                 if0                  22
+       L13                 STR                   L                  25               'Введенное число меньше или равно b'               else0                  25
+       L14                 STR                   L                  27               'Проверка работы цикла. Вывод цифр от 0 до 3'                main                  27
+         j                UINT                   V                  28                                    main                  28
+       L15                UINT                   L                  28                   0                main                  28
+       L16                UINT                   L                  29                   4              until0                  29
+       L17                UINT                   L                  31                   1              until0                  31
+       L18                 STR                   L                  33               'Конец'                main                  33
+       L19                UINT                   L                  34                   0                main                  34

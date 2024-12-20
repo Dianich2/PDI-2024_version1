@@ -1,0 +1,7 @@
+function double h(double a){
+	ret a;	
+};
+
+main{
+	double k = h(5.5,,);	
+};

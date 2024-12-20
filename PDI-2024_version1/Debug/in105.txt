@@ -1,0 +1,5 @@
+main{
+	double a = 10.5;
+	uint a = 2;	
+	ret 0;
+};

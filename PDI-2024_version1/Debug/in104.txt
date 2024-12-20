@@ -1,0 +1,4 @@
+main{
+	double ret = 10.6;	
+	ret 0;
+};

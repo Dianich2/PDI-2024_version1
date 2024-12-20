@@ -1,0 +1,13 @@
+function double h(double b){
+	print b;
+	ret b;	
+};
+
+function uint h(uint b){
+	print b;
+	ret b;	
+};
+
+main{
+	ret 0;	
+};
