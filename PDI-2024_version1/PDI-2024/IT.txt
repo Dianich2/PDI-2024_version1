@@ -1,0 +1,11 @@
+        id            datatype              idtype                Line               value               Scope                idTi
+   compare                UINT                   F                  -1                                  global                  -1
+       len                UINT                   F                  -1                                  global                  -1
+    getmin                UINT                   F                  -1                                  global                  -1
+    getmax                UINT                   F                  -1                                  global                  -1
+      main                UINT                   F                   1                                  global                   1
+         a                UINT                   V                   2                                    main                   2
+        L0                UINT                   L                   2                  10                main                   2
+        L1                UINT                   L                   4                   1                 if0                   4
+        L2                UINT                   L                   6                   1               else0                   6
+        L3                UINT                   L                   8                   0                 if0                   8
